@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Hard Refresh + Clear Cache",
-  "version": "1.0.0",
-  "description": "One-click hard refresh on current tab and clear cache.",
+  "name": "TabZap",
+  "version": "1.0.1",
+  "description": "One-click cache clear + hard refresh for the active tab.",
   "permissions": ["tabs", "browsingData"],
   "host_permissions": ["<all_urls>"],
   "action": {
@@ -22,8 +22,5 @@
   },
   "background": {
     "service_worker": "background.js"
-  }
-}
-"background.js"
   }
 }
