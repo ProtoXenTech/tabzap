@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "TabZap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "One-click cache clear + hard refresh for the active tab.",
   "permissions": ["tabs", "browsingData"],
   "host_permissions": ["<all_urls>"],
